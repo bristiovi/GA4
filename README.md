@@ -2,7 +2,7 @@
 
 An end-to-end Power BI product analytics dashboard built on real (obfuscated) Google Merchandise Store GA4 event data, analyzing where the business loses customers and revenue across the online purchase journey.
 
-![Executive Summary](Summary.png)
+![Executive Summary](Screenshots/Summary.png)
 *Replace this and all screenshots below with your own exports (File > Export > Image, or Snipping Tool) saved into a `/screenshots` folder in this repo.*
 
 ---
@@ -143,27 +143,27 @@ CALCULATE(
 ## Dashboard Pages
 
 ### 1. Executive Summary
-![Executive Summary](screenshots/01_executive_summary.png)
+![Executive Summary](Screenshots/Summary.png)
 Headline KPIs and cross-page teaser visuals for quick-glance review.
 
 ### 2. Device & Browser Performance — *Does Platform Affect Conversion?*
-![Device](screenshots/03_device.png) 
+![Device](Screenshots/Device_Browser.png) 
 - Mobile converts marginally better than desktop (1.39% vs 1.32%) — contrary to typical ecommerce assumptions
 - Edge converts 27% below average (0.98% vs 1.35%) despite meaningful traffic
 
 ### 3. Marketing Channels — *Which Traffic Actually Converts?*
-![Channels](screenshots/04_channels.png)
+![Channels](Screenshots/MarketingChannels.png)
 - Organic drives the most volume (123K sessions) but converts modestly
 - Referral converts revenue 53% better than organic per session ($1.15 vs $0.75) despite far less traffic
 - CPC (paid) underperforms all organic channels at $0.54/session
 
 ### 4. Geography — *Where Is Revenue Concentrated?*
-![Geography](screenshots/05_geography.png)
+![Geography](Screenshots/Geography.png)
 - US alone drives 43.7% of total revenue; top 5 countries account for 67.6% combined
 - Reaches 109 countries, but international markets remain comparatively underdeveloped
 
 ### 5. Revenue Leakage & Trends — *Are We Improving?*
-![Trends](screenshots/06_trends.png)
+![Trends](Screenshots/Trends.png)
 - Revenue up 20.8% month-over-month
 - $411.70K in estimated lost revenue from 6,261 abandoned checkouts
 - Wednesday earns the most revenue ($57K), Sunday the least ($25K)
@@ -177,4 +177,4 @@ Power BI Desktop · Power Query (M) · DAX · DuckDB (SQL)
 
 ## Author
 
-Ovidha Das — [LinkedIn] · [Portfolio]
+Ovidha Das — [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ovidha-das-72a370116)
