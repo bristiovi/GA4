@@ -124,13 +124,13 @@ SWITCH(
 ```dax
 Revenue MoM Change = 
 VAR CurrentRevenue = [Total Revenue]
-VAR PriorRevenue = CALCULATE([Total Revenue], DATEADD(DimDate[Date], -1, MONTH))
+VAR PriorRevenue = CALCULATE([Total Revenue], DATEADD(DateTable[Date], -1, MONTH))
 RETURN DIVIDE(CurrentRevenue - PriorRevenue, PriorRevenue, 0)
 
 Revenue 7Day Avg = 
 CALCULATE(
-    AVERAGEX(VALUES(DimDate[Date]), [Total Revenue]),
-    DATESINPERIOD(DimDate[Date], MAX(DimDate[Date]), -7, DAY)
+    AVERAGEX(VALUES(DateTable[Date]), [Total Revenue]),
+    DATESINPERIOD(DateTable[Date], MAX(DateTable[Date]), -7, DAY)
 )
 ```
 
