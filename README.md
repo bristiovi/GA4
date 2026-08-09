@@ -35,7 +35,7 @@ DuckDB: SQL GROUP BY → session-level aggregation
 sessions.csv (360,129 sessions, 22 cols)
         │
         ▼
-Power BI: Star Schema (FactSessions + DimDate)
+Power BI: Star Schema (FactSessions + DateTable)
 ```
 
 ### Why DuckDB, not Power Query, for the session-level aggregation
