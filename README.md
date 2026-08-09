@@ -3,7 +3,6 @@
 An end-to-end Power BI product analytics dashboard built on real Google Merchandise Store GA4 event data, analyzing where the business loses customers and revenue across the online purchase journey.
 
 ![Executive Summary](Screenshots/Summary.png)
-*Replace this and all screenshots below with your own exports (File > Export > Image, or Snipping Tool) saved into a `/screenshots` folder in this repo.*
 
 ---
 
